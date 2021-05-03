@@ -1,0 +1,90 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Stickytraining">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Local style and scripts -->
+    <script defer src="./javascript/scripts.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- CDN: font-awesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <p>Stutern Movie World</p>
+      <input placeholder="Search Movie Catalogue" class="textInput" id="searchInput">
+      <section>
+          <div>
+              <i class="fa fa-linkedin fa-1x"></i>
+          </div>
+          <div>
+              <i class="fa fa-search fa-1x"></i>
+          </div>
+          <div>
+              <i class="fa fa-facebook fa-1x"></i>
+          </div>
+      </section>            
+  </header>
+    <main>
+    <nav id="nav" class="sticky">
+        <div id="progress"></div>
+        <div id="mainNav">
+        <ul>
+          <li><strong>Home</strong></li>
+          <li><strong>About</strong></li>
+          <li><strong>Contact</strong></li>
+        </ul>
+        <section>
+          <div>
+            <i class="fa fa fa-cc-visa fa-1x"></i>
+         </div>
+          <div>
+              <i class="fa fa fa-cc-amex fa-1x"></i>
+          </div>
+          <div>
+              <i class="fa fa fa-cc-paypal fa-1x"></i>
+          </div>
+          <div>
+              <i class="fa fa-cart-plus fa-1x"></i>
+          </div>
+      </section>
+      </div>
+    </nav>
+    <div id="history">
+      <h2>
+        A brief history of Stutern Movie World.
+      </h2>
+      <p id="para">
+        <span class="myDropcap">S</span>tutern is a skills development and job placement 
+        platform that trains and connects young African talents with long-term employment.
+        In 2021, we diversified into the amazing industry of movie rentals. 
+      </p>
+      </div>
+      <div id="form" class="showcase-form card">
+        <h2>Register here to join us.</h2>
+        <form name="contact">
+          <div class="form-control">
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="Firstname" id="firstname" placeholder="Firstname" required>
+          </div>
+          <div class="form-control">
+            <input type="date" name="Firstname" id="dob" placeholder="DOB" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="level" id="level" placeholder="Current Level" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="club" id="club" placeholder="Favorite Club" required>
+          </div>
+          <input type="submit" value="send" id="send" class="btn btn-primary">
+        </form>
+      </div>
+      <section id="memberTable" style="display: none;">
+      </section>
+    </main>
+  </body>
